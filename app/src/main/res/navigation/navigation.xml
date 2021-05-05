@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/bookingTracking">
+
+    <fragment
+        android:id="@+id/bookingTracking"
+        android:name="com.romp.bookingstracker.BookingTracking"
+        android:label="fragment_booking_tracking"
+        tools:layout="@layout/fragment_booking_tracking" />
+    <fragment
+        android:id="@+id/looking"
+        android:name="com.romp.bookingstracker.LTP"
+        android:label="fragment_ltp"
+        tools:layout="@layout/fragment_ltp" />
+    <fragment
+        android:id="@+id/teamchallenge"
+        android:name="com.romp.bookingstracker.TeamChallenge"
+        android:label="fragment_team_challenge"
+        tools:layout="@layout/fragment_team_challenge" />
+</navigation>

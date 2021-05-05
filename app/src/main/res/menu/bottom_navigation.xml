@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bookingTracking"
+        android:title="Bookings Track"
+        android:icon="@drawable/checkbox_icon_foreground"/>
+    <item
+        android:id="@+id/looking"
+        android:title="LTP"
+        android:icon="@drawable/looking_icon_foreground"/>
+    <item
+        android:id="@+id/teamchallenge"
+        android:title="Team Challenge"
+        android:icon="@drawable/fire_icon_foreground"/>
+</menu>
